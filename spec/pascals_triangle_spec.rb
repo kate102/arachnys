@@ -19,7 +19,7 @@ describe PascalsTriangle do
     it 'returns [[[1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1]] when n = 5' do
       pascals_triangle = PascalsTriangle.new
       n = 5
-      expect(pascals_triangle.make_triangle(n)).to eq([[1],[1,1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1]])
+      expect(pascals_triangle.make_triangle(n)).to eq([[1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1]])
     end
   end
 
